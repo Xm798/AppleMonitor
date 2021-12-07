@@ -183,8 +183,8 @@ namespace AppleMonitor.Model
         [JsonProperty("MLT63CH/A", NullValueHandling = NullValueHandling.Ignore)]
         public AvailabilityProduct Mlt63ChA { get; set; }
 
-        [JsonProperty("MLT73CH/A", NullValueHandling = NullValueHandling.Ignore)]
-        public AvailabilityProduct Mlt73ChA { get; set; }
+        [JsonProperty("MLTC3CH/A", NullValueHandling = NullValueHandling.Ignore)]
+        public AvailabilityProduct MltC3ChA { get; set; }
     }
 
     public partial class AvailabilityProduct
